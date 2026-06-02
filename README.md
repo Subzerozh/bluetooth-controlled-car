@@ -1,4 +1,4 @@
-# Bluetooth-Controlled Car (STM32)
+# Bluetooth-Controlled Car (STM32 Bare-Metal)
 
 ![STM32](https://img.shields.io/badge/Microcontroller-STM32F4-blue)
 ![C/C++](https://img.shields.io/badge/Language-Bare--Metal%20C-orange)
