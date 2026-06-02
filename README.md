@@ -1,4 +1,4 @@
-# Bluetooth-Controlled Car (STM32 Bare-Metal)
+# Bluetooth-Controlled Car (STM32)
 
 ![STM32](https://img.shields.io/badge/Microcontroller-STM32F4-blue)
 ![C/C++](https://img.shields.io/badge/Language-Bare--Metal%20C-orange)
@@ -42,7 +42,7 @@ The Android controller app sends movement commands (Forward, Backward, Left, Rig
 <img src="https://github.com/Subzerozh/bluetooth-controlled-car/blob/main/car.jpg?raw=true" width="600">
 
 - **Live Demonstration:**
-![Robot Car Demo](THAY_LINK_ẢNH_GIF_CỦA_BẠN_VÀO_ĐÂY?raw=true) 
+![Car Demo](https://github.com/Subzerozh/bluetooth-controlled-car/blob/main/CarDemo.gif?raw=true) 
 
 ## How to Run (Pinout & Wiring)
 
