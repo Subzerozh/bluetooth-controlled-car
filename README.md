@@ -39,7 +39,7 @@ The Android controller app sends movement commands (Forward, Backward, Left, Rig
 ## Key Results & Demonstration
 
 - **Hardware Setup:**
-<img src="THAY_LINK_ẢNH_CHỤP_XE_VÀO_ĐÂY?raw=true" width="600">
+<img src="https://github.com/Subzerozh/bluetooth-controlled-car/blob/main/car.jpg?raw=true" width="600">
 
 - **Live Demonstration:**
 ![Robot Car Demo](THAY_LINK_ẢNH_GIF_CỦA_BẠN_VÀO_ĐÂY?raw=true) 
