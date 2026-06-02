@@ -20,7 +20,7 @@ The vehicle features a custom UART communication protocol, real-time motor contr
 ## Hardware Components
 - **Microcontroller:** STM32F401RE (Nucleo Board / Custom PCB)
 - **Motor Driver:** L298N Dual H-Bridge
-- **Wireless Module:** HC-05 / HC-06 Bluetooth Module
+- **Wireless Module:** HC-05 Bluetooth Module
 - **Actuators:** 4x DC Gear Motors
 - **Sensors:** HC-SR04 Ultrasonic Sensor / IR Obstacle Sensor
 - **Power:** 2x 18650 Li-ion Batteries (7.4V)
