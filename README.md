@@ -35,3 +35,32 @@ The Android controller app sends movement commands (Forward, Backward, Left, Rig
 
 ### 2. Block Diagram
 ![System Architecture](https://github.com/Subzerozh/bluetooth-controlled-car/blob/main/luongxuly.png?raw=true)
+
+## Key Results & Demonstration
+
+- **Hardware Setup:**
+<img src="THAY_LINK_ẢNH_CHỤP_XE_VÀO_ĐÂY?raw=true" width="600">
+
+- **Live Demonstration:**
+![Robot Car Demo](THAY_LINK_ẢNH_GIF_CỦA_BẠN_VÀO_ĐÂY?raw=true) 
+
+## How to Run (Pinout & Wiring)
+
+### 1. Wiring Guide
+| STM32F4 Pin | Component Pin | Function |
+| :--- | :--- | :--- |
+| `PA9` (TX) | HC-05 `RX` | UART Transmit to Bluetooth |
+| `PA10` (RX) | HC-05 `TX` | UART Receive from Bluetooth |
+| `PA6` (TIM3_CH1)| L298N `ENA` | PWM Left Motor Speed |
+| `PA7` (TIM3_CH2)| L298N `ENB` | PWM Right Motor Speed |
+| `PB0` - `PB3` | L298N `IN1-IN4`| Motor Direction Control |
+| `PC13` (EXTI) | Sensor `OUT` | Interrupt for Obstacle Detection |
+
+### 2. Compilation
+1. Clone this repository: `git clone https://github.com/Subzerozh/bluetooth-controlled-car.git`
+2. Open the project using **Keil uVision** or **STM32CubeIDE**.
+3. Compile the bare-metal C code and flash it to the STM32 board via ST-Link.
+4. Connect the HC-05 module to your Android phone and use a serial Bluetooth terminal app to send the customized frame commands.
+
+---
+*Developed by [Vu Ha](https://www.linkedin.com/in/vu-ha-63716a330/) as part of an Embedded Systems hardware project.*
