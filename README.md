@@ -29,5 +29,9 @@ The vehicle features a custom UART communication protocol, real-time motor contr
 
 ### 1. Custom Communication Frame
 The Android controller app sends movement commands (Forward, Backward, Left, Right, Stop) via Bluetooth. The STM32 parses these commands using the following structure:
-```text
+` ` `text
 [ 0xAA (START) ] | [ COMMAND BYTE ] | [ CHECKSUM ]
+` ` `
+
+### 2. Block Diagram
+![System Architecture](https://github.com/Subzerozh/bluetooth-controlled-car/blob/main/luongxuly.png?raw=true)
